@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1c1c1c, #3a3a3a);
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        a 
+        {
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        .about-content {
+            height: auto;
+            padding: 80px 20px 20px;
+        }
+        .about-content h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .about-content p {
+            font-size: 1.2em;
+            max-width: 800px;
+            line-height: 1.6;
+            margin: auto;
+        }
+        .skills, .certifications, .internships {
+            margin-top: 30px;
+            padding: 20px;
+        }
+        .skills h2, .certifications h2, .internships h2 {
+            margin-bottom: 10px;
+        }
+        .skills ul, .certifications ul, .internships ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .certifications li, .internships li {
+            display: inline-block;
+            background: #f39c12;
+            color: black;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./project.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="about-content">
+        <h1>About Me</h1>
+        <p>Hi, I'm a passionate web developer and AI enthusiast, dedicated to creating innovative solutions in Web Development, Machine Learning, and Software Engineering. With a strong foundation in front-end and back-end technologies, I strive to build seamless and efficient applications.</p>
+        
+        <div class="skills">
+            <h2>Skills & Technologies</h2>
+            <h3>Front-End</h3>
+            <ul>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <h3>Back-End</h3>
+            <ul>
+                <li>Node.js with Express</li>
+            </ul>
+            <h3>Database</h3>
+            <ul>
+                <li>MongoDB</li>
+                <li>SQL</li>
+            </ul>
+            <h3>Machine Learning Libraries</h3>
+            <ul>
+                <li>scikit-learn</li>
+                <li>pandas</li>
+                <li>numpy</li>
+                <li>TensorFlow/Keras</li>
+            </ul>
+            <h3>API Development</h3>
+            <ul>
+                <li>Flask (for serving ML models)</li>
+                <li>REST API</li>
+            </ul>
+            <h3>Version-Control</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+            <h3>Deployment</h3>
+            <ul>
+                <li>Render</li>
+                <li>Vercel</li>
+                <li>GitHub Pages</li>
+                <li>Streamlit</li>
+            </ul>
+            <h3>Data Visualization</h3>
+            <ul>
+                <li>matplotlib</li>
+                <li>seaborn</li>
+            </ul>
+            <h3>Security</h3>
+            <ul>
+                <li>Basic JWT Authentication</li>
+            </ul>
+        </div>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_0134898743771545602_shared/1-df5eada6-7611-44c9-b50d-3dadac4d376a.pdf" target="_blank">Artificial Intelligence Primer - Infosys</a></li>
+                <li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_013809178768416768124_shared/1-8a00fa2e-d31f-4bbf-91fa-43cc47649678.pdf" target="_blank">Principles of Generative AI</a></li>
+            </ul>
+        </div>
+
+        <div class="internships">
+            <h2>Internships</h2>
+            <ul>
+                <li><a href="https://smartinternz.com/internships/google_developers/587990a2aa86d5e79b670d42cb21aae0" target="_blank">Externship on Artificial Intelligence by SmartBridge</a></li>
+                <li> <a href="https://inizyz-zc1.maillist-manage.in/click/1fb90690cad25e6/1fb90690cacb5b4" target="_blank">MERN Stack internship</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI/ML Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1c1c1c, #3a3a3a);
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        .container {
+            padding: 80px 20px 20px;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .project-card {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .project-card h3 {
+            margin: 10px 0;
+        }
+        .project-card .buttons {
+            margin-top: 10px;
+        }
+        .project-card .buttons a {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            text-decoration: none;
+            color: white;
+            background: #f39c12;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .project-card .buttons a:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../project.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>AI/ML Projects</h1>
+        <div class="projects">
+            <div class="project-card">
+                <img src="/images/Plant-Disease-ML.png" alt="AI/ML Project 1">
+                <h3>Plant Disease Prediction application</h3>
+                <p>Built using CNN and Deep Learning models.</p>
+                <div class="buttons">
+                    <a href="https://github.com/PrinceRaj1161/Plant-disease" target="_blank">GitHub</a>
+                    <a href="https://plant-disease-princeraj1161.streamlit.app/" target="_blank">Deployment</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/images/Travel-ML.png" alt="AI/ML Project 2">
+                <h3>Travel Recommendation</h3>
+                <p>Developed using NLP for recommendation system.</p>
+                <div class="buttons">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="https://travelrecommendation.streamlit.app/" target="_blank">Deployment</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/images/Malware.png" alt="AI/ML Project 3">
+                <h3>Malware</h3>
+                <p>Malicious URL Detection Using Machine Learning. (SVM)</p>
+                <div class="buttons">
+                    <a href="https://github.com/PrinceRaj1161/Machine_Learning_Url_Malware" target="_blank">GitHub</a>
+                    <a href="https://machine-learning-url-malware.onrender.com/" target="_blank">Deployment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

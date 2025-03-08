@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1c1c1c;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        .projects {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .project-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .project-card h3 {
+            margin: 10px 0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: white;
+            background: #f39c12;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../project.html">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="projects">
+        <h1>MERN Stack Projects</h1>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="/images/Password.png" alt="MERN Project 1">
+                <h3>Password-generator</h3>
+                <p>A simple website to generate password.</p>
+                <div class="buttons">
+                    <a href="https://github.com/PrinceRaj1161/password-generator" target="_blank">GitHub</a>
+                    <a href="https://password-generator-pi-gilt.vercel.app/" target="_blank">Deployment</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/images/travelwebsite.png" alt="MERN Project 2">
+                <h3>Travel Website</h3>
+                <p>Built using MERN stack to book Travel plans.</p>
+                <div class="buttons">
+                    <a href="https://github.com/PrinceRaj1161/TravelWebsite" target="_blank">GitHub</a>
+                    <a href="https://travel-website-gamma-ten.vercel.app/home" target="_blank">Deployment</a>
+                </div>
+            </div>
+            <!-- <div class="project-card">
+                <img src="mern_project3.jpg" alt="MERN Project 3">
+                <h3>To Do List</h3>
+                <p>A productivity web app for task tracking, reminders, and analytics.</p>
+                <div class="buttons">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Deployment</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+</body>
+</html>
